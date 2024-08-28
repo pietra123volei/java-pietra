@@ -11,13 +11,13 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Não, existem muitas fraudes e má conduta nas eleições e em nossos governos",
-                afirmacao: "Acredito que o Brasil tem que melhorar muito na nossa democracia, somos um país que não existe conhecimento politico algum, nós deixamos os nossos direitos serem levados pela falta de consciencia e  não damos a devida importancia.",
+                afirmacao: "Acredito que o Brasil tem que melhorar muito na nossa democracia, somos um país que não existe conhecimento politico algum, nós deixamos os nossos direitos serem levados pela falta de consciência e  não damos a devida importância.",
             },
 
             {
 
                 texto: "Sim, todos nós temos acesso aos mesmos conhecimentos politicos",
-                afirmação: "No Brasil existe democracia, pois todos tem os mesmos direitos e sabemos das nosssas responsabilidades comos eleitores",
+                afirmação: "No Brasil existe democracia, pois todos tem os mesmos direitos e sabemos das nossas responsabilidades comos eleitores.",
 
             },
         ]
@@ -28,13 +28,13 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Acredito que existe uma parte da população que não saiba qual é a nossa responsabilidade como eleitores, então nós não nos comprometemos.",
-                afirmacao: "Somos grandes irresponsaveis com as eleições e por conta disso, a nossa justiça eleitoral não consegue ser 100% justa e transparente."
+                afirmacao: "Somos grandes irresponsáveis com as eleições e por conta disso, a nossa justiça eleitoral não consegue ser 100% justa e transparente."
             },
 
             {
                 texto: "Nossa população se compromete sim",
-                afirmacao: "Os brasileiros dão a devida importancia para a eleições"
-            }
+                afirmacao: "Os brasileiros dão a devida importância para a eleições,"
+            },
         ]
     },
 
@@ -48,7 +48,7 @@ const perguntas = [
 
             {
                 texto: "Sim, pois todos temos o mesmo acesso as informações",
-                afirmacao: "O conhecimento se busca, todos temos o mesmo acesso a informações, não existe privilegios"
+                afirmacao: "o conhecimento se busca, todos temos o mesmo acesso a informações, não existe privilégios"
             }
         ]
     }
@@ -91,7 +91,7 @@ function resposta_selecionada(opcao_selecionada) {
 };
 
 function mostra_resultado() {
-    caixa_Perguntas.textContent = "em 2049...";
+    caixa_Perguntas.textContent = "em 2024...";
     texto_Resultado.textContent = historia_final;
     caixa_Alternativas.textContent = "";
 };
